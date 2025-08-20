@@ -1,0 +1,45 @@
+h1 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 30px;
+    font-size: 50px;
+}
+
+html,body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.Button{
+    text-align: center;
+        padding-top: 35px;
+        padding-right: 12px;
+}
+
+input[type="submit"]:hover {
+    background-color: #56a74c;
+}
+
+input[type="submit"] {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(88, 107, 112);
+    font-size: 20px;
+    border: solid;
+    border-color: black;
+}
+
+.mensaje{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    padding-top: 40px;
+    text-align: center;
+    color: rgb(1, 255, 1)
+}

@@ -1,0 +1,68 @@
+.edad{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    border-color: black;
+    padding-right: 20px;
+}
+
+.space{
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+html,body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+  background-image: url("fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+ input[type="submit"]:hover {
+     background-color: #0fe20f;
+ }
+
+input[type="number"] {
+    background-color: rgba(238, 205, 20, 0.897);
+    text-align: center;
+    border-style: solid;
+    border-color: rgb(7, 7, 5);
+    width: 300px;
+    height: 25px;
+}
+
+.mensaje_error {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    padding: 10px;
+    text-align: center;
+    color:red
+}
+
+.mensajef {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    padding: 10px;
+    text-align: center;
+    color: rgba(255, 0, 0, 0.637)
+}
+
+.mensajeV {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    padding: 10px;
+    text-align: center;
+    color: rgba(41, 122, 30, 0.87)
+}

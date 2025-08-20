@@ -1,0 +1,89 @@
+h1{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb(0, 0, 0);
+    padding-top: 70px;
+}
+
+h2{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(0, 0, 0);
+    padding-top: 50px;
+}
+
+html,body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+input[type="submit"]:hover {
+    background-color: #0fe20f;
+}
+
+input[type="submit"] {
+    font-family:'Times New Roman', Times, serif 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgba(151, 170, 187, 0.849);
+    border: 50px;
+    font-size: 20px;
+}
+
+.space {
+    text-align: center;
+    padding-top: 25px;
+    padding-right: 12px;
+}
+
+input[type="number"] {
+    background-color: rgb(228, 115, 95);
+    text-align: center;
+    border-style: ridge;
+    border-color: black;
+    border: 30px;
+}
+
+.Nu1{
+    text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        border-color: black;
+        padding-right: 13px;
+}
+
+.Nu2{
+    text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        border-color: black;
+        padding-right: 13px;
+}
+
+.mensajeE {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    padding: 10px;
+    text-align: center;
+    color: rgba(255, 2, 2, 0.966)
+}
+
+.mensajeER {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    padding: 10px;
+    text-align: center;
+    color: rgba(255, 0, 0, 0.911)
+}
+
+.mensaje {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    padding: 10px;
+    text-align: center;
+    color: rgb(5, 5, 5)
+}

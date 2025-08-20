@@ -1,0 +1,68 @@
+h1 {
+    padding-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(0, 153, 255);
+    font-size: 40px;
+    text-align: center;
+}
+
+html,body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+input[type="number"] {
+    background-color: rgba(154, 201, 160, 0.781);
+    text-align: center;
+    border-style: solid;
+    border-color: rgb(7, 7, 5);
+    width: 300px;
+    height: 25px;
+}
+
+.Dato {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4em;
+}
+
+input[type="submit"]:hover {
+    background-color: #56a74c;
+}
+
+input[type="submit"] {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgba(145, 166, 172, 0.76);
+    border: 50px;
+    font-size: 20px;
+}
+
+.Space{
+    text-align: center;
+    padding-top: 35px;
+    padding-right: 12px;
+}
+
+.mensaje1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+    padding: 2px;
+    text-align: center;
+    color: rgb(0, 195, 255)
+}
+
+.mensaje2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    padding: 2px;
+    text-align: center;
+    color: rgb(2, 255, 255)
+}
