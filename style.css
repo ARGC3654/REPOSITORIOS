@@ -1,0 +1,47 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #333;
+    margin: 20px 0;
+}
+
+td {
+    width: 33.33%;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+    border: 1px solid #333;
+    padding: 10px;
+}
+
+.teal {
+   background-color: teal; 
+   color: rgb(255, 255, 255); 
+
+
+   background-color: teal; 
+   color: rgba(255, 0, 0, 0.932); }
+
+
+.red {
+   background-color: red;
+    color: white; }
+.blue
+ { background-color: blue;
+   color: white; }
+.orange {
+   background-color: orange; 
+   color: black; }
+.purple {
+   background-color: purple;
+    color: white; }
+.olive { 
+  background-color: olive;
+   color: rgb(189, 27, 27); }
+.fuchsia { 
+  background-color: fuchsia; 
+  color: white; }
+.green { 
+  background-color: green; 
+  color: white; }
